@@ -1,0 +1,21 @@
+.calc-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 100vh;
+   width: 100vw;
+}
+
+.calc{
+
+    height:350px;
+    width:180px;
+}
+.cal-but{
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.cal-but:hover{
+    background-color: yellow;
+}

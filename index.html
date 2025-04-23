@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+   <div class="calc-cont">
+    <div class="calc">
+    <input placeholder="Enter the Expression" type="text" disabled id="num-input">
+    <input placeholder="Answer" type="text" disabled id="result">
+    <div class="but">
+        <div class="row">
+        
+            <div onclick="clickbutton(this)" class="col col-3 cal-but">+</div>
+            <div onclick="clickbutton(this)"  class="col col-3 cal-but">-</div>
+            <div onclick="clickbutton(this)"  class="col col-3 cal-but">*</div>
+            <div onclick="clickbutton(this)"  class="col col-3 cal-but">/</div>
+        </div>
+        <div class="row">
+            <div onclick="clickbutton(this)"  class="col col-3 cal-but">7</div>
+            <div onclick="clickbutton(this)"  class="col col-3 cal-but">8</div>
+            <div onclick="clickbutton(this)"  class="col col-3 cal-but">9</div>
+        </div>
+        <div class="row">
+            <div onclick="clickbutton(this)"  class="col col-3 cal-but">4</div>
+            <div onclick="clickbutton(this)"  class="col col-3 cal-but">5</div>
+            <div onclick="clickbutton(this)"  class="col col-3  cal-but">6</div>
+        </div>
+        <div class="row">
+            <div onclick="clickbutton(this)"  class="col col-3 cal-but">1</div>
+            <div onclick="clickbutton(this)"  class="col col-3 cal-but">2</div>
+            <div onclick="clickbutton(this)"  class="col col-3 cal-but">3</div>
+        </div>
+        <div class="row">
+            <div onclick="clickbutton(this)"  class="col col-4 cal-but">0</div>
+            <div onclick="clearDisp()" class="col col-8 cal-but">Clear</div>
+        </div>
+        
+    </div>
+    </div>
+   </div>
+   <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
